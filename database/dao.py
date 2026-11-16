@@ -24,3 +24,6 @@ class Dao:
         finally:
             cnx.close()
 
+if __name__ == '__main__':
+    dao = Dao()
+    print(dao.get_all_film()) # per controllare che la connessione avvenga

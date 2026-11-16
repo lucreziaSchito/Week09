@@ -7,6 +7,8 @@ class Controller:
 
     def handle_statistiche(self, e):
         pass
+        serate = self.view.dd_serate
+        self._model.get_statistiche(serate)
 
     def handle_programma(self, e):
         pass
